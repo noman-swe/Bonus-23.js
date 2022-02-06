@@ -13,3 +13,9 @@ function factorial(i){
     return i * factorial(--i); 
 }
 console.log(factorial(4));
+
+//  i * factorial(--i); 
+//  4 * factorial(4)
+//  3 * factorial(2)
+//  2 * factorial(1)
+// 4 * 3 * 2 * 1;
