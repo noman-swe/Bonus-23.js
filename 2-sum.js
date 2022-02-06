@@ -16,6 +16,6 @@ function sum(i){
     if(i == 1){
         return 1;
     }
-    return sum(--i);
+    return sum(--i);//eikhan e return korsi coz amader value ta drkr silo 
 }
 console.log(sum(5));
